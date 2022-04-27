@@ -95,7 +95,7 @@ public class Main {
                         }
                     }
                 }
-            } while (!answer.equalsIgnoreCase("N")); // as long as the answer is Y, the loop will run.
+            } while (answer.equalsIgnoreCase("Y")); // as long as the answer is Y, the loop will run.
             // condition what to do in case user entered N
             if (answer.equalsIgnoreCase("N")) {
                 System.out.println("Thanks for using our currency converter");
